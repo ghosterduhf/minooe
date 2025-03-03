@@ -4,7 +4,6 @@ const { Client, GatewayIntentBits } = require("discord.js");
 const app = express();
 const port = 3000;
 const keepAlive = require("./keep_alive.js");
-keepAlive();
 
 // ======================
 // 🔥 REBEL CONFIGURATION
